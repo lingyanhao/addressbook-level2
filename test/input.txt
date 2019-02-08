@@ -140,6 +140,14 @@
   delete 1
   list
 
+  # add new person after delete
+  add Adam Brown p/111111 e/adam@gmail.com a/111, alpha street
+  list
+  
+  # test sort command
+  sort
+  list
+
 ##########################################################
 # test clear command
 ##########################################################
