@@ -12,6 +12,7 @@ public class SortCommand extends Command {
 
     @Override
     public CommandResult execute() {
+        addressBook.sortList();
         return new CommandResult(MESSAGE_SUCCESS);
     }
 }
