@@ -159,7 +159,7 @@ Format: `sort`
 
 Example:
 
-* `sort'
+* `sort`
 
 == Clearing all entries : `clear`
 
