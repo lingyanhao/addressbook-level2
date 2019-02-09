@@ -32,6 +32,9 @@ public class SortCommandTest {
         assertCommandBehaviour(sortCommand, SortCommand.MESSAGE_SUCCESS, addressBook, sortedAddressBook);
     }
 
+    /**
+     * Creates a new delete command.
+     */
     private SortCommand createSortCommand(AddressBook addressBook, List<ReadOnlyPerson> displayList) {
 
         SortCommand command = new SortCommand();
@@ -40,6 +43,9 @@ public class SortCommandTest {
         return command;
     }
 
+    /**
+     * Executes the command, and checks that the execution was what we had expected.
+     */
     private void assertCommandBehaviour(SortCommand sortCommand, String expectedMessage,
                                         AddressBook expectedAddressBook, AddressBook actualAddressBook) {
 
